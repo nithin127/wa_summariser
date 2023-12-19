@@ -1,0 +1,365 @@
+[0:43 am, 14/12/2023] +91 98202 34828: Gemini api is out
+[0:44 am, 14/12/2023] +91 98202 34828: http://ai.google.dev
+[0:44 am, 14/12/2023] +91 99712 81365: Found something interesting when integrating Google Gemini on our platform. Just ask it "Give your thoughts on openai". Full details https://x.com/knit_ai/status/1735014242808647845?s=20
+[0:45 am, 14/12/2023] +91 99712 81365: What do you guys think might be happening here?
+[0:45 am, 14/12/2023] +91 98202 34828: Is that LLM for no comment
+[0:46 am, 14/12/2023] +91 99712 81365: looks like it. Tried the same on their playground as well. Gives no content 😂
+[1:06 am, 14/12/2023] Sandeep Srinivasa: That's very interesting. I'm very interested in the tooling side of things. Are u using deepspeed as the tooling? Or did u roll your own in transformers, etc
+[1:55 am, 14/12/2023] +91 98202 34828: Anything with openai the model refused to answer
+[4:02 am, 14/12/2023] +91 81222 65690: Interesting. This should not be the case for a LLM accessed through playground/API. If it is happening in Bard UI, I can understand that (as they will have a restrictive system message)
+[4:54 am, 14/12/2023] +91 96164 06460: Must have put a filter to avoid Gemini mentioning it has also been developed by openAI
+[5:22 am, 14/12/2023] +1 (240) 840-6105: After that demo video, I believe Google will pull such tricks
+[6:15 am, 14/12/2023] +91 90008 44590: As I mentioned, we don't use transformers. In fact, no neural net in the classical sense. So just numpy and some math functions.
+[6:43 am, 14/12/2023] +91 99165 76150: https://hubs.la/Q02cZdDQ0
+
+Love how Andrew NG keeps rolling these short courses on various concepts around LLMs for Free!
+[7:36 am, 14/12/2023] +91 99021 04302: https://makersuite.google.com/
+[7:55 am, 14/12/2023] +91 78927 92975: for i in query:
+    if i == "openai":
+        response = null
+    else:
+        continue
+[8:02 am, 14/12/2023] +91 70145 51665: Try bringing down safety filter values in studio
+[8:09 am, 14/12/2023] +91 91136 58560: https://huggingface.co/SkunkworksAI/phi-2
+
+Research only - until MSFT clarifies licence!
+[8:13 am, 14/12/2023] +91 78927 92975: https://huggingface.co/microsoft/phi-2
+[8:20 am, 14/12/2023] +91 88677 05880: Safetensors says F16 only i think
+[8:20 am, 14/12/2023] +91 88677 05880: This is f32
+[8:23 am, 14/12/2023] +91 91136 58560: Yeah, the MS version is half precision
+[8:25 am, 14/12/2023] +91 78927 92975: No no there are 4 execution types. you can choose any. I think the default tag is fp16
+[8:26 am, 14/12/2023] +1 (858) 228-7027: They released PALM 2 back in May, right? And now it is legacy.
+[8:28 am, 14/12/2023] +1 (858) 228-7027: i do understand Gemini is the hot new thing they want to push, but it feels like there is a lot of repetition of work going on.
+[8:37 am, 14/12/2023] +91 91136 58560: Phi-2 has been extremely impressive so far
+[8:38 am, 14/12/2023] +91 98927 27514: Tried it? Or based on the metrics?
+[8:46 am, 14/12/2023] +91 87587 52882: Any solution which helps manage context switches in rag llm chat bot .
+[8:47 am, 14/12/2023] +91 91136 58560: My tests.
+[9:11 am, 14/12/2023] +91 87587 52882: Context i mean the conversational memory in rephrase stage and qa stage .
+[9:22 am, 14/12/2023] +91 93138 27344: It's not low imo. Check after 1-2 minutes of conversation, the delay is huge.
+
+But one solution is streaming sentences + elevenlabs websockets. Likely they use these from what I have heard from one of their ex engineers
+[10:04 am, 14/12/2023] +91 6361 299 331: Folks, Does anybody know which open source model is good for financial domain?
+[10:06 am, 14/12/2023] +91 98106 59901: This is something anyone working in LLM should be ready to face. ‘Hot’ to ‘legacy’ timeframe is very short window now!
+[10:24 am, 14/12/2023] +44 7788 588812: Nvidia have created finance specific models
+[10:25 am, 14/12/2023] +91 76110 87663: Thanks
+I checked till 12 mins, no change in latency, its under 3-4s
+[10:25 am, 14/12/2023] +91 6361 299 331: Do you know which models it is? Can you share references?
+[10:28 am, 14/12/2023] +44 7788 588812: https://fintechmagazine.com/articles/exclusive-video-nvidia-talks-gen-ai-llms-in-fintech
+[10:30 am, 14/12/2023] +44 7788 588812: https://developer.nvidia.com/industries/financial-services
+[11:10 am, 14/12/2023] +32 486 63 43 41: Who is the real boss now 🤣🤣?
+[11:15 am, 14/12/2023] +91 99205 99420: Is this real or some meme !
+[11:17 am, 14/12/2023] +91 99111 33349: Need a version for delhi people asking “tu janta hai mera baap kaun hai”
+[11:22 am, 14/12/2023] +1 (240) 840-6105: Wait 
+What ??
+[11:27 am, 14/12/2023] +32 486 63 43 41: This is real
+[11:28 am, 14/12/2023] Rajesh RS GenAI: 🤣
+[11:29 am, 14/12/2023] +1 (240) 840-6105: Link ?
+[11:29 am, 14/12/2023] Rajesh RS GenAI: I guess the Gemini twins actually are GPT3.5 and Gemini Pro
+[11:51 am, 14/12/2023] +91 91136 58560: lol...Hindi chatbot data online skews towards Google assistant.
+[11:51 am, 14/12/2023] +91 91136 58560: But again, need to see all the prompts before judging
+[11:52 am, 14/12/2023] Rajesh RS GenAI: Perhaps this is because of ChatGPT being trained on Google assistant generated responses in the data?
+[11:53 am, 14/12/2023] +91 81499 21148: 7B model fine tuned for Indian languages 
+https://www.sarvam.ai/blog/announcing-openhathi-series
+[0:02 pm, 14/12/2023] +91 98223 81281: https://www.rungalileo.io/hallucinationindex
+[0:05 pm, 14/12/2023] +91 98223 81281: the interesting part is that with or without RAG the GPT-4 & GPT3.5-Turbo scores are almost the same
+[0:05 pm, 14/12/2023] +91 6361 299 331: Nice demo presented by @~Pratyush Kumar from sarvam ai in GPAI summit. It is incredible to see the huge impact of openhathi model dataset. Cheers to you @~Pratyush 🙂
+
+Shikhil
+[0:07 pm, 14/12/2023] +32 486 63 43 41: Its a screenshot from my IDE
+[0:08 pm, 14/12/2023] +32 486 63 43 41: This is the beginning of the conversation
+[0:21 pm, 14/12/2023] +91 93138 27344: Oh that's normal. I thought you meant the initial message one, which surprised me -- almost instant
+[0:43 pm, 14/12/2023] +91 90430 03225: https://github.com/Superflows-AI/superflows
+
+Anyone aware/used superflows ai here? 
+
+It's supposed to provide chat interface for your end customer to directly interact/make use of APIs you have as per your api spec sheet
+[1:39 pm, 14/12/2023] +91 93343 72044: Opportune moment. Thanks
+[1:39 pm, 14/12/2023] +91 93343 72044: Needed this
+[1:41 pm, 14/12/2023] +91 98927 27514: We were discussing about edge computing in GPU engineering group and figured that it'd be interesting to post here:
+
+What are the applications that AI personal computers will create that can't/won't be done with cloud AI.
+[1:45 pm, 14/12/2023] +91 80721 73935: https://sanctuary.ai/
+[1:45 pm, 14/12/2023] +91 93343 72044: Trust based is a guess. I am much more comfortable talking to a local llm about my life problems than letting the big folks have a piece of the pie, data wise
+[1:45 pm, 14/12/2023] +91 80721 73935: On edge
+[1:46 pm, 14/12/2023] +91 98927 27514: Oh yeah. Robotics need to use edge AI .
+[1:46 pm, 14/12/2023] +91 98927 27514: In fact I know that healthcare applications have similar concerns.
+[1:46 pm, 14/12/2023] +91 80721 73935: These guys are crazy bro. Check out their foundation model for edge use case
+[1:48 pm, 14/12/2023] +91 98927 27514: But what are applications that trust is a key factor? Outside care.
+[1:49 pm, 14/12/2023] +91 93343 72044: Mental health and therapy bots
+[1:49 pm, 14/12/2023] +91 93343 72044: Perhaps that's part of care
+[1:49 pm, 14/12/2023] +91 98927 27514: Yes 😅
+[1:50 pm, 14/12/2023] +91 98927 27514: Talking about more consumer oriented products/applications
+[1:50 pm, 14/12/2023] +91 93343 72044: Just confirming, wouldnt a therapy bot technically be a consumer oriented product ?
+[1:51 pm, 14/12/2023] +91 93343 72044: Or atleast it should be 🤣
+[1:51 pm, 14/12/2023] +91 98927 27514: Haha. Let's not get into healthcare stuff haha
+[1:51 pm, 14/12/2023] +91 93343 72044: Fair 🤣🫡
+[1:51 pm, 14/12/2023] +91 93343 72044: Out of ideas outside of this
+[1:51 pm, 14/12/2023] +91 93343 72044: Wait, what about a personal assistant ? That helps with day to day tasks ? That is probably also in the same vibe ?
+[1:52 pm, 14/12/2023] +91 93343 72044: Don't want everyone to know my exact schedule lol
+[1:52 pm, 14/12/2023] +91 93343 72044: Like a founders office type role bot.
+[1:53 pm, 14/12/2023] +91 98927 27514: Well cloud people promise they won't share the data with anyone. And people share data with facebook etc freely.
+[1:53 pm, 14/12/2023] +91 97176 17888: I think a ROM / RAM which is built in way to personalize all experiences for me would be helpful. So stores all context from my allergies to current heart rate.
+This is something I've been exploring to build out as well
+[1:53 pm, 14/12/2023] +91 93343 72044: What people say and do are very different I would say. And perhaps a philosophical discussion hahaha.
+[1:58 pm, 14/12/2023] +91 95555 79357: We're building something similar at gappy.ai, with rag, managed conversation history, guardrails, health and monitoring and some out of the box tools including advanced analytics, sql writer etc.
+[1:59 pm, 14/12/2023] +91 95555 79357: Please dm if you need something like this, I'll be happy to add you to our beta
+[2:33 pm, 14/12/2023] +91 90430 03225: Not at a need yet for our product, just exploring and understanding what's possible
+Will keep you guys in mind too when the need arise
+[2:51 pm, 14/12/2023] +91 77090 04027: Am curious, having seen a lot of companies saying there are building guardrails, how exactly are these implemented with LLMs?
+[3:00 pm, 14/12/2023] +91 95555 79357: https://docs.guardrailsai.com/guardrails_ai/introduction/
+[3:21 pm, 14/12/2023] +91 98245 87433: Hello folks, I have been exploring open source zero shot / few shot ML models for  talking head avatar and only model I could find is SadTalker.  From my experience it runs quite slowly.  Does anyone any idea about good alternatives?
+[3:51 pm, 14/12/2023] +91 98245 87433: I also have another question -> when running on google collab (free version) . Can i use it to calculate ballpark latency for a model. I mean if a model is taking x amount of time to produce an output on T4 instance in google collab -> is there some correlation to how quick it can be on hosted gpu instances?
+[3:51 pm, 14/12/2023] +91 98245 87433: what I mean to say is that is x a good ballpark number or there is no correlation between time it takes on google collab vs hosted gpu instances
+[3:52 pm, 14/12/2023] +91 78927 92975: https://tokentally.streamlit.app/
+
+goto -> LLM Cost Tool
+[3:55 pm, 14/12/2023] +91 98245 87433: this is not LLM . I am testing SadTalker (https://github.com/OpenTalker/SadTalker) and am interested to understand the quality as well as the latency for video generation. I was testing on google collab -> but am not sure if the latency numbers i calculate there are any good and can give some ballpark idea about how would it run when i deploy it on a hosted gpu cluster
+[3:55 pm, 14/12/2023] +91 98245 87433: but i will bookmark this. Looks super useful
+[6:48 pm, 14/12/2023] +91 98880 17773: What is the quickest way to try Phi-2? I can't see any GPU-based spaces on HF. Is it available on any other platform?
+[7:02 pm, 14/12/2023] +91 98927 27514: Run on your laptop
+[7:05 pm, 14/12/2023] +91 98927 27514: Llama cpp doesn't support phi yet
+[7:05 pm, 14/12/2023] +91 98927 27514: https://www.reddit.com/r/LocalLLaMA/comments/18hsupw/official_phi2_now_on_huggingface/
+[7:05 pm, 14/12/2023] +91 98927 27514: There's a link of HF space in this
+[7:06 pm, 14/12/2023] +91 98112 66476: You can try our sadtalker api beta with this colab notebook: https://colab.research.google.com/drive/1dktxnkwIKrH3rdWxHIEqFdcjWM3ayjwJ#scrollTo=qkNMZpC_xvLr
+[7:06 pm, 14/12/2023] +91 78927 92975: you probably wont find it hosted anywhere because the license prohibits it from being used for anything lol
+[7:06 pm, 14/12/2023] +91 98880 17773: Yeah thats the model link
+[7:06 pm, 14/12/2023] +91 98927 27514: https://huggingface.co/spaces/randomblock1/phi-2
+[7:07 pm, 14/12/2023] +91 98880 17773: yes I tried this, it times out everytime
+[7:09 pm, 14/12/2023] +91 70145 51665: just run it in colab? basic code already in model card: https://huggingface.co/microsoft/phi-2
+[7:11 pm, 14/12/2023] +91 87655 34151: https://x.com/daniel_nguyenx/status/1735260556892967170?s=20
+
+Apparently, there’s been a leak that OpenAI is about to release GPT-4.5 with cross-modal understanding
+[7:13 pm, 14/12/2023] +91 84940 04853: Openai doesn't even officially anounce and all of us here are losing our minds already
+[7:14 pm, 14/12/2023] +91 84940 04853: They must have serious chops to justify that pricing though
+[7:20 pm, 14/12/2023] +91 91160 15934: Has anyone here used/ is using context AI for evaluation or product analytics? Any quick reviews?
+[7:26 pm, 14/12/2023] +91 81469 94546: Hey Folks! Wanted to understand how much people are spending on LLMs ( OpenSource/ ClosedSource) right now. Even if you are using credits, please select credit usage.
+< $1k/month
+$1k-$5k/month
+$5k-$10k/month
+>$10k/month
+[7:49 pm, 14/12/2023] +91 80562 88640: Done ✅
+Apologies for not notifying earlier 
+Try Mixtral 8x7B here: https://chat.nbox.ai
+[8:15 pm, 14/12/2023] +91 84940 04853: have ya'll seen the recent US Fed cuts ?
+could we be going back to ZIRP ?
+
+could see massive investment in AI if thats the case
+[8:44 pm, 14/12/2023] Chirag Gandhi: https://labs.perplexity.ai/
+
+If someone is looking to try out mixtral instruct.
+[8:50 pm, 14/12/2023] +91 93532 81004: GPT4.5 🤔
+[8:50 pm, 14/12/2023] +91 98202 34828: When did 4.5 come out
+[8:51 pm, 14/12/2023] +91 80721 73935: Leak
+[8:51 pm, 14/12/2023] +91 98202 34828: Agi can't keep a secret it seems
+[9:08 pm, 14/12/2023] +91 93425 33525: I think you can try it on Msft Azure or LMstudio
+[9:38 pm, 14/12/2023] +1 (412) 320-1882: I work in robotics and I have personally seen two use cases for edge computing / AI personal computer:
+- Latency issues - it is impractical to run models in the cloud for real-time applications
+- Change cost model - using edge (or any on prem) infra changes your operation's cost model from a variable cost model (more data processed => more costs) to a fixed cost model (more data processed => same cost). This can be very beneficial as your company scales and processes vast volumes of data.
+Would love to hear other people's perspectives as well.
+[9:52 pm, 14/12/2023] +91 74076 51462: What kind of use cases with large models are you looking at in robotics?
+[10:58 pm, 14/12/2023] +1 (412) 320-1882: Most robotics in production (including Boston Dynamics, self-driving, etc) still relies on classical control and planning algorithms, with ML models being used mostly on the perception stack (detection, tracking, segmentation, etc). The immediate use case for large models I'm working on is to accelerate this current setup. Mainly, to use large models (e.g., FAIR's SAM) to automate or improve labeling productivity. I've also used some generative algorithms to improve the fidelity of simulators so that they more closely resemble real-world conditions (mostly in terms of images).
+
+Currently, there is a race in the research community to build a "foundational model for robotics". This means different things to different people. A good read on this is https://nish…
+[11:10 pm, 14/12/2023] +91 78927 92975: https://openai.com/research/weak-to-strong-generalization
+
+
+
+[0:23 am, 15/12/2023] +91 93343 72044: Interesting idea.
+[0:23 am, 15/12/2023] +91 93343 72044: Thanks for sharing 🙏
+[0:23 am, 15/12/2023] +91 88980 20185: https://x.com/GoogleDeepMind/status/1735332735277842637?t=Rw5eM1JmfnjYjGWNZxL4pg&s=08
+[0:24 am, 15/12/2023] +91 88980 20185: llm generating new knowledge in mathematical sciences
+[0:47 am, 15/12/2023] +91 93343 72044: Damn what a day to be alive 🫡🫡🫡
+[0:48 am, 15/12/2023] +91 97730 65092: peter thiel reading this 😂
+[0:49 am, 15/12/2023] +91 93425 33525: But why the name Fun tho ?
+[0:50 am, 15/12/2023] +91 93425 33525: Industry lingo alert
+
+Are they calling this just a PoC ? 🌚
+[1:23 am, 15/12/2023] +91 98202 34828: Openai api and mistral api slowdown at the same time 🤔
+[1:24 am, 15/12/2023] +91 97730 65092: wouldve been sus af except mistral dumping models into OSS
+[1:25 am, 15/12/2023] +91 98202 34828: I was actually blaming cloudflare
+[1:25 am, 15/12/2023] +91 97730 65092: make that the 2 of us
+[1:25 am, 15/12/2023] +91 93343 72044: *3 😂
+[7:40 am, 15/12/2023] +91 91991 20076: https://delcomplex.com/vonGoom 👀
+[7:42 am, 15/12/2023] +91 97382 86220: Evil 😈
+[8:37 am, 15/12/2023] +91 70046 04862: If you have a Mac with Apple Silicon you can try this
+
+https://github.com/ml-explore/mlx-examples/tree/main/phi2
+[9:42 am, 15/12/2023] +91 96328 34013: Has anyone used this? https://github.com/microsoft/autogen
+[9:43 am, 15/12/2023] +65 9069 0114: I did some basic agent creation.
+Worked well
+[9:45 am, 15/12/2023] +91 98223 81281: Been running multiple agents connected to knowledge/facts from the CogniSwitch APIs
+[10:08 am, 15/12/2023] Nirant K: All Portkey users can now ship with Anyscale — end to end integration with fallback to other LLMs:
+https://portkey.ai/docs/welcome/integration-guides/anyscale-llama2-mistral-zephyr
+
+And if I understand correctly, this can be now done within VPC @~Ayush Garg ?
+[10:10 am, 15/12/2023] +91 75033 88999: Thanks for sharing @Nirant K 
+
+Our AI Gateway is open source can be self hosted.
+https://github.com/portkey-ai/rubeus
+
+Can also be deployed on workers/vercel etc
+[10:11 am, 15/12/2023] +65 9069 0114: Good paper on openAIs view on AGI and where “humans” fit in 🙈
+
+https://openai.com/research/weak-to-strong-generalization
+[10:33 am, 15/12/2023] +91 91580 66359: https://www.linkedin.com/posts/yann-lecun_ego-exo4d-the-largest-ever-public-dataset-activity-7141174940921131009-gNjL?utm_source=share&utm_medium=member_android
+[10:42 am, 15/12/2023] +91 99710 04124: We open-sourced a library that we found quite useful in production. It lets you conveniently setup LLM API fallbacks and routing based on latency and uptime.
+
+If your LLM provider goes down or is slowing down, you need something like this to keep your production stable.
+
+https://gpt-router.writesonic.com/docs/
+[10:44 am, 15/12/2023] +91 99710 04124: 'pip install gptrouter' now so you don't have to do so when OAI goes down next
+[10:52 am, 15/12/2023] +91 98682 21372: Does anyone understand the intuition behind this 
+
+https://x.com/sergeyi49013776/status/1735349205781070231?s=12
+[10:58 am, 15/12/2023] Nirant K: Wait, I thought we were moving away from DPO towards fully qualified feedback with the Fun thing from DeepMind?
+[11:01 am, 15/12/2023] +91 98682 21372: Fun thing works because you have a verifier, no? Most domains don’t have that
+[11:02 am, 15/12/2023] +91 98682 21372: this fun thing uses genetic algorithms which is less efficient way to backprop, but sometimes the only options for optimising discrete solutions like computer programs
+[11:07 am, 15/12/2023] Nirant K: Yes, that's why it is valuable? Helps with discrete soln eval when we've a cheap verified
+[11:07 am, 15/12/2023] Nirant K: Aah, what domains don't have some verifier? Dataset or a code verifier?
+[11:20 am, 15/12/2023] +91 98682 21372: Real world accidents, which by definitions are rare and hence mostly out of distribution
+[11:20 am, 15/12/2023] +91 98682 21372: This is why we don’t have good world models for robots
+
+There are many ways things go wrong and a simulator rarely captures them well
+[11:22 am, 15/12/2023] Nirant K: High precision industries have escaped the AI game for too long, this is also why Tesla has one of the world's best synthetic data teams
+[11:25 am, 15/12/2023] +91 98682 21372: Yes, I think wherever the out of distribution is a risky, AI progress will be slow as you simply can’t unleash those agents in the wild
+[11:25 am, 15/12/2023] +91 98682 21372: This may include politics advising AI where rare historical events is what makes all the difference
+[11:58 am, 15/12/2023] Nirant K: Would be fun to see this since 2024-2025 has elections in more than a few major economies: US, India with most relevance for folks here.
+[0:19 pm, 15/12/2023] +91 77377 99743: Ola has built a bilingual model. Shared this video over email. https://s3-ap-southeast-1.amazonaws.com/olabanners/Krutrim-Comms-Video-Final.mp4
+[0:21 pm, 15/12/2023] Nirant K: Could’ve dropped a Torrent link of model weights 🙈
+[0:29 pm, 15/12/2023] +91 93400 04079: It's great to see the unique culture we are building as a community, which is different and beneficial for innovation from India
+[0:32 pm, 15/12/2023] +91 98927 27514: https://twitter.com/bhash/status/1734897121827205359
+[0:33 pm, 15/12/2023] +91 98927 27514: from 3 days back
+[0:33 pm, 15/12/2023] +91 98927 27514: https://www.youtube.com/watch?v=EP1x_9LMp50 livestream at 2.39
+[1:04 pm, 15/12/2023] +91 6380 021 838: http://gpt-router.writesonic.com/docs/
+[1:21 pm, 15/12/2023] +91 99710 04124: Thanks for the bump. Would love to have a few folks here try it out and share feedback. Contributions are welcome with open arms.
+[1:23 pm, 15/12/2023] +91 91136 58560: This colab may be useful. Works on free T4 runtime. Remeber, it's a base model and you'll have to prompt accordingly.
+https://colab.research.google.com/drive/1pTP_D1V7mF9RcaRI5PLLQFo608CfWcN1?usp=sharing
+[1:46 pm, 15/12/2023] +91 85880 47452: https://www.nature.com/articles/s41586-023-06924-6
+[1:47 pm, 15/12/2023] +91 85880 47452: Large Language Models (LLMs) have demonstrated tremendous capabilities in solving complex tasks, from quantitative reasoning to understanding natural language. However, LLMs sometimes suffer from confabulations (or hallucinations) which can result in them making plausible but incorrect statements [1,2]. This hinders the use of current large models in scientific discovery. Here we introduce FunSearch (short for searching in the function space), an evolutionary procedure based on pairing a pre-trained LLM with a systematic evaluator. We demonstrate the effectiveness of this approach to surpass the best known results in important problems, pushing the boundary of existing LLM-based approaches [3]. Applying FunSearch to a central problem in extremal combinatoric…
+[1:54 pm, 15/12/2023] +91 76110 87663: Hey Everyone,
+Looking to tinker with a few chat LLMs, which are the best right now for authentic conversations like C.ai is really good?
+[2:27 pm, 15/12/2023] +91 90210 77561: sillytavern / aganai are good.
+[2:47 pm, 15/12/2023] +32 486 63 43 41: Krutrim Live demo: For people who can read Tamil,
+[2:49 pm, 15/12/2023] +91 99523 32232: Just saw. But for last line :)
+[2:49 pm, 15/12/2023] +32 486 63 43 41: DPO will help ;)
+[2:52 pm, 15/12/2023] +91 90430 03225: Wait so krutrim is a foundational model company and they released a model for Tamil-Eng ?
+Main improvements being from tokenization and regional data?
+[2:53 pm, 15/12/2023] +32 486 63 43 41: Notes from the Live demo of Krutrim
+1. Krutrim is a family of models for many usecases, trained on 2T tokens.
+2. Can generate 10 Indian languages and read 22 Indian languages
+3. Krutrim Pro is multimodal - text, speech, vision - will release next quarter
+[2:56 pm, 15/12/2023] +32 486 63 43 41: Rule no. 1 of my Stats class, label the axes!
+[2:59 pm, 15/12/2023] +91 82819 46933: the light green is so light, its practically white, need to squint to even realise there are bars next to the dark green ones 😅
+[3:01 pm, 15/12/2023] +91 90031 35354: Didn't know it's there until u said 🥲
+[3:02 pm, 15/12/2023] Nirant K: Just me 2T tokens feels like someone just used CommonCrawl?
+[3:03 pm, 15/12/2023] Nirant K: With just that, how're they doing chat/instruction behaviour? Did they translate something like Red Pyjama/ShareChat? 
+[3:05 pm, 15/12/2023] +32 486 63 43 41: Notes from Chief Engineers of Krutrim
+1. Outperforms GPT4 in less time and compute: Krutrim 10^23 Flops vs GPT4 - 10^25 Flops.
+2. Not just finetuning but they have trained from scratch
+3. Homegrown tokenizer, 2T tokens
+4. 20 times Indic tokens in comparison to any other model available out there
+5. Voice enabled models
+[3:05 pm, 15/12/2023] +91 99524 65050: So they trained a foundational model, which is also multimodal, and started at the same time as mistral?
+[3:05 pm, 15/12/2023] +91 99524 65050: And beats GPT-4?
+[3:06 pm, 15/12/2023] +91 90430 03225: 😂
+[3:06 pm, 15/12/2023] +91 94880 50368: 😂😂
+[3:07 pm, 15/12/2023] Ravi Theja GenAI: in indic languages
+[3:08 pm, 15/12/2023] +91 96194 46401: For point 3, homegrown tokenizer - what would 2T mean here?
+[3:08 pm, 15/12/2023] +91 91160 15934: did they release a tech blog or something?
+[3:08 pm, 15/12/2023] +91 79773 14565: Rule 1) What
+[3:08 pm, 15/12/2023] +91 99523 32232: Is this on any specific dataset? I missed that part.
+[3:09 pm, 15/12/2023] +91 99524 65050: 🔥🔥🔥🤣🤣🤣🤣
+[3:18 pm, 15/12/2023] +32 486 63 43 41: No Sudalai. If I understood it correctly, they have a held-out set of prompts and compared human preferences across languages
+[3:19 pm, 15/12/2023] +91 77372 53979: It made doubt for a while, if it's only me who can't see that color or what 😂
+[3:21 pm, 15/12/2023] +91 98202 34828: It's going to catch fire soon
+[3:22 pm, 15/12/2023] +32 486 63 43 41: Feb 2024 - Developer APIs for Krutrim will be out
+[3:22 pm, 15/12/2023] Ravi Theja GenAI: no opensource?
+[3:22 pm, 15/12/2023] +91 96194 46401: Sign-up can be done here:
+https://chat.olakrutrim.com
+[3:22 pm, 15/12/2023] +91 94880 50368: They did not mention about it
+[3:22 pm, 15/12/2023] +32 486 63 43 41: I don't think so
+[3:25 pm, 15/12/2023] Dr. Pratik Desai: SF will be on fire once I land there.
+[3:26 pm, 15/12/2023] +91 88615 43781: The scale especially end to end they have envisioned is definitely admirable, lets see how it pans out.
+
+Has anything being mentioned about technical report?
+[3:26 pm, 15/12/2023] +91 95641 91888: Not when you just wanna do PR sir xD
+[3:27 pm, 15/12/2023] +91 95641 91888: I had spoken to some really senior folks there. They don’t plan to do oss.
+[3:27 pm, 15/12/2023] +91 95641 91888: Not now for sure. Maybe after a year or so.
+[3:27 pm, 15/12/2023] +32 486 63 43 41: Bhavish just said he loves Dashtoon ❤ @~Soumyadeep Mukherjee, @~Amogh
+[3:36 pm, 15/12/2023] +44 7554 014562: Why is it tied to Ola?
+[3:37 pm, 15/12/2023] +91 96869 66347: Ola semiconductor wing that is why
+[3:38 pm, 15/12/2023] +44 7554 014562: But it means I need an ola account to sign up?
+[3:41 pm, 15/12/2023] +91 96869 66347: Nope
+[3:42 pm, 15/12/2023] Dr. Pratik Desai: Yi has everything same as Llama2 except two tensors, if this model is never opened, we will never find out.
+[3:43 pm, 15/12/2023] +91 82819 46933: Seems like it, just signed up on the URL and the OTP came as follows :
+
+“# DO NOT SHARE: XXXX is the OTP for your Ola Cabs account. Keep this OTP to yourself for account safety.”
+[3:52 pm, 15/12/2023] Dr. Pratik Desai: I hope Bhavish is not misguided by the team as either one can be true (1) Build from scratch (don’t beat llama2 or mistral at anything)
+(2) Beats Indic evals (Finetuned on Llama2)
+(3) Lead scientist at Ola getting Padma Vibhushan
+[3:54 pm, 15/12/2023] +91 95641 91888: ++
+[4:04 pm, 15/12/2023] +91 96869 66347: I think he is very smart to be misguided to be honest and most folks in that firm are smart as I have interacted with them
+[4:09 pm, 15/12/2023] Dr. Pratik Desai: I’m just providing my honest doubts. Nothing will make more happy to be proven wrong that a foundation model built from scratch is beating llama2 and even mighty GPT4.
+[4:09 pm, 15/12/2023] +91 98202 34828: I feel that is just the base model.
+[4:10 pm, 15/12/2023] +91 96869 66347: Sure concur, just sharing thoughts 😊
+[4:11 pm, 15/12/2023] +91 98202 34828: These are images I've come across online. Feel like the model beating gpt4 is not the one that is just trained in 2T tokens.
+[4:11 pm, 15/12/2023] Nirant K: The demo is chat, I expect chat behaviour now 🧸
+[4:13 pm, 15/12/2023] +91 98202 34828: Ya that model has gone another layer of training and finetuning.
+Just one doubt. Is ola collecting data from microphones hidden in their bikes 😂
+[4:18 pm, 15/12/2023] Dr. Pratik Desai: Who did the data curation of that voice data? I’m assuming there is a stealth scaleAI level company in India that we don’t know about.
+[4:18 pm, 15/12/2023] +91 91136 58560: Who here is a fan of ollama and why do you like it?
+https://github.com/jmorganca/ollama
+[4:18 pm, 15/12/2023] +91 90130 07300: Haven't seen the demo but chatted with someone in-the-know at Ola - they are planning chip, cloud and Llms. All 3. Full stack.
+[4:20 pm, 15/12/2023] +91 96869 66347: yes:
+[4:21 pm, 15/12/2023] Dr. Pratik Desai: Even chip from scratch ? 😱
+[4:22 pm, 15/12/2023] +91 90130 07300: atleast from what i hear that's B's ultimate vision.
+[4:22 pm, 15/12/2023] +91 95641 91888: Yes
+
+They have GPUs in their vision scope over 10-15 years.
+[4:24 pm, 15/12/2023] +91 96869 66347: from what I see
+[4:24 pm, 15/12/2023] +91 86607 02637: this may be a very basic question but - what quantity of data and compute would be required for Krutrim to be built from scratch and still be able to beat llama2 and mistral?
+[4:24 pm, 15/12/2023] Dr. Pratik Desai: That’s 6 months to prototype
+[4:29 pm, 15/12/2023] +91 99524 65050: You can check meta’s llama release notes, they trained on 2T tokens as well
+[4:31 pm, 15/12/2023] +91 98919 01981: is openhathi available via api anywhere ?
+[4:45 pm, 15/12/2023] +91 99720 30105: Here are ChatGPT answers to almost the same questions in the Krutrim Demo: https://chat.openai.com/share/b5ce8935-6e45-4119-b6f7-fc10806eacf4 ChatGPT answers seem more polished but Krutrim is still only version 1 (and as they say, this is just the beginning)
+[4:50 pm, 15/12/2023] +91 96498 60773: keep staring the image for 30 seconds and then look at a white wall to see the gpt4 data
+[4:57 pm, 15/12/2023] +91 96194 32911: Every time you speak with a support team on call those calls are recorded.
+
+If call centres are using a call masking service like Ola does the calls are recorded .
+
+Biggest call centre software providers like Ameyo,Exotel would have tons of voice data in almost all of the languages.
+[4:59 pm, 15/12/2023] +91 70548 99100: You can load/work on it via huggingface itself. They have the 7B model
+[4:59 pm, 15/12/2023] +44 7554 014562: Does the call centre own this data, or the client they are servicing?
+[5:01 pm, 15/12/2023] +91 96194 32911: Clients own it but there is also a retention policy.Beyond agreed retention period not sure if the ownership changes ,since clients typically lose access to the data.
+[5:03 pm, 15/12/2023] +91 96194 32911: Sorry in case there are 3 parties 
+Clients-Outsourced CC-Call Centre software /infra provider 
+
+After retention policy the outsourced centre does not own the data.It’s between client and infra provider
+[5:19 pm, 15/12/2023] +91 98866 74484: any suggestions for micro llm that can be used to describe images that can be hosted locally
+[5:21 pm, 15/12/2023] +49 1512 3185039: I think ollama.ai also supports LLAVA which should work well for image description.
+[5:29 pm, 15/12/2023] +91 98866 74484: thanks, will have a look
+[7:33 pm, 15/12/2023] +91 77090 04027: As someone who has worked on this sort of data before, it is ridiculously difficult to get anything to work well with it (was the case 1-2 years back) because of how bad Speech to text is for Indian languages/accents/dialects.
+[7:33 pm, 15/12/2023] +91 77090 04027: May work for audio tasks but converting to text and using for NLP is very hard.
+[7:47 pm, 15/12/2023] +91 93425 33525: Trained on 2T tokens
+
+https://olakrutrim.com/
+[7:47 pm, 15/12/2023] +91 93425 33525: Built by ola team
+[7:48 pm, 15/12/2023] +91 93425 33525: Oh shit, people have already talked about it 😂
+
+I am very slow
+[7:50 pm, 15/12/2023] +91 92304 29404: True.
+[7:50 pm, 15/12/2023] +91 92304 29404: Very likely.
+[7:53 pm, 15/12/2023] +91 92304 29404: Building a GPU is fine. Nvidia today is powerful because if it's software infra and compatibility with all the hardware devices. Their packages like Cuda.
+
+How will they compete with that?
+[8:18 pm, 15/12/2023] +91 80721 73935: https://x.com/corbtt/status/1735449863431864559?t=rEFNHX-VglgRwfsDKrxvdw&s=08
+[8:19 pm, 15/12/2023] +91 80721 73935: What exactly is hyper personalized in their case ?
+[8:20 pm, 15/12/2023] +91 97176 17888: Possibly - Basically to customise the chatbot to the user's talking style etc to optimise engagement. Interests, switches, tonality.
+[8:21 pm, 15/12/2023] +91 97176 17888: It'll be a really interesting breakthrough if they pull it off. I think the challenge might be more in the cost and scaling I guess right?
+[8:22 pm, 15/12/2023] +91 80721 73935: But how are they doing it per user? Using smaller models like phi-2 or simply clustering users who use the same type of language and have a fine tuned tone
+[8:23 pm, 15/12/2023] +91 80721 73935: Might just be something like the new X algo of clustering
+[8:23 pm, 15/12/2023] +91 97176 17888: That's a great question. Happy to brainstorm and learn if you have any ideas
+[8:24 pm, 15/12/2023] +91 80721 73935: I think it's possible that it's the second one,  SLMs indobt think can pull of this
+[8:34 pm, 15/12/2023] +91 98245 87433: Hi Folks,  how much is the latency for OpenAI in streaming mode. I am getting around 1 second of latency in most simplest of conversations.  Anybody know of some benhcmarks numbers for the same
+[9:49 pm, 15/12/2023] +91 80750 28806: Hey, any reviews here? Are there alternatives?
+[11:23 pm, 15/12/2023] +91 76201 57773: checkout lmstudio
